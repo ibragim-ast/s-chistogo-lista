@@ -66,5 +66,30 @@ body {
 }
 
 .cover {
-  padding: 40px 20px;
+  background-image: url("../images/cover.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 95% auto;
+  min-height: 221px;
+  width: 340px;
+  padding-left: 10px;
+}
+
+.cover__title {
+  font-family: "EB Garamond", serif;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+  line-height: 0.7;
+}
+
+.text-right {
+  text-align: right;
 }
