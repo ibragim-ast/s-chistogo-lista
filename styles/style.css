@@ -176,7 +176,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 36px;
-  padding: 40px 20px;
+  padding: 40px 20px 66px;
 }
 
 .cards-list {
@@ -226,4 +226,29 @@ body {
 .card_theme_bright {
   background-color: #fee42a;
   color: #131313;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #fee42a;
+  padding: 20px;
+}
+
+.footer__copy {
+  line-height: 135%;
+  color: #f5f5f5;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.footer__link {
+  color: #f5f5f5;
+  text-decoration: none;
 }
