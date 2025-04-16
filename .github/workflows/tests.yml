@@ -35,7 +35,7 @@ jobs:
         run: ls -l tests-selfmade-project-1-public/output.jpg
 
       - name: Upload layout-compare
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: layout-compare
           path: tests-selfmade-project-1-public/output.jpg
